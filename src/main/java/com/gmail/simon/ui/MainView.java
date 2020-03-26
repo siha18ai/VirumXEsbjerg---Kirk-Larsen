@@ -22,6 +22,7 @@ import com.vaadin.flow.component.tabs.TabVariant;
 import com.vaadin.flow.component.tabs.Tabs;
 import com.vaadin.flow.router.RouteConfiguration;
 import com.vaadin.flow.router.RouterLink;
+import com.vaadin.flow.server.PWA;
 import com.vaadin.flow.server.VaadinServlet;
 import com.gmail.simon.app.security.SecurityUtils;
 import com.gmail.simon.ui.views.HasConfirmation;
@@ -41,7 +42,7 @@ public class MainView extends AppLayout {
 		confirmDialog.setCancelButtonTheme("raised tertiary");
 
 		this.setDrawerOpened(false);
-		Span appName = new Span("Analyse & Design - Kirk Larsen");
+		Span appName = new Span("Kirk Larsen & Ascanius");
 		appName.addClassName("hide-on-mobile");
 
 		menu = createMenuTabs();

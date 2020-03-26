@@ -1,0 +1,12 @@
+{
+  "productionMode": false,
+  "useDeprecatedV14Bootstrapping": false,
+  "eagerServerLoad": false,
+  "npmFolder": "/Users/Simon/Desktop/Eksamen ABDIS/Github eksamen/VirumXEsbjerg---Kirk-Larsen",
+  "generatedFolder": "/Users/Simon/Desktop/Eksamen ABDIS/Github eksamen/VirumXEsbjerg---Kirk-Larsen/target/frontend",
+  "frontendFolder": "/Users/Simon/Desktop/Eksamen ABDIS/Github eksamen/VirumXEsbjerg---Kirk-Larsen/frontend",
+  "connect.javaSourceFolder": "/Users/Simon/Desktop/Eksamen ABDIS/Github eksamen/VirumXEsbjerg---Kirk-Larsen/src/main/java",
+  "connect.applicationProperties": "/Users/Simon/Desktop/Eksamen ABDIS/Github eksamen/VirumXEsbjerg---Kirk-Larsen/src/main/resources/application.properties",
+  "connect.openApiFile": "/Users/Simon/Desktop/Eksamen ABDIS/Github eksamen/VirumXEsbjerg---Kirk-Larsen/target/generated-resources/openapi.json",
+  "connect.generated": "/Users/Simon/Desktop/Eksamen ABDIS/Github eksamen/VirumXEsbjerg---Kirk-Larsen/frontend/generated"
+}

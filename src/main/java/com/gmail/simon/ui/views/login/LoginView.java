@@ -15,7 +15,7 @@ import com.gmail.simon.ui.utils.BakeryConst;
 import com.gmail.simon.ui.views.storefront.StorefrontView;
 
 @Route
-@PageTitle("Analyse & Design - Kirk Larsen")
+@PageTitle("Kirk Larsen & Ascanius")
 @JsModule("./styles/shared-styles.js")
 public class LoginView extends LoginOverlay
 	implements AfterNavigationObserver, BeforeEnterObserver {
@@ -23,7 +23,7 @@ public class LoginView extends LoginOverlay
 	public LoginView() {
 		LoginI18n i18n = LoginI18n.createDefault();
 		i18n.setHeader(new LoginI18n.Header());
-		i18n.getHeader().setTitle("Analyse & Design - Kirk Larsen");
+		i18n.getHeader().setTitle("Kirk Larsen & Ascanius");
 		i18n.getHeader().setDescription(
 			"admin@vaadin.com + admin\n" + "barista@vaadin.com + barista");
 		i18n.setAdditionalInformation(null);

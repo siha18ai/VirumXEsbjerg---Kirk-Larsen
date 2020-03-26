@@ -2,6 +2,7 @@ package com.gmail.simon.ui.views.storefront;
 
 import java.util.stream.Stream;
 
+import com.gmail.simon.backend.data.Role;
 import com.vaadin.flow.component.confirmdialog.ConfirmDialog;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.dialog.Dialog;
@@ -30,6 +31,7 @@ import com.gmail.simon.ui.utils.BakeryConst;
 import com.gmail.simon.ui.views.EntityView;
 import com.gmail.simon.ui.views.orderedit.OrderDetails;
 import com.gmail.simon.ui.views.orderedit.OrderEditor;
+import org.springframework.security.access.annotation.Secured;
 
 @Tag("storefront-view")
 @JsModule("./src/views/storefront/storefront-view.js")
