@@ -7,7 +7,7 @@ import com.vaadin.flow.server.PWA;
 import static com.gmail.simon.ui.utils.BakeryConst.VIEWPORT;
 
 @Viewport(VIEWPORT)
-@PWA(name = "Bakery App Starter", shortName = "Analyse & Design - Kirk Larsen",
+@PWA(name = "Bakery App Starter", shortName = "Kirk Larsen & Ascanius",
 		startPath = "login",
 		backgroundColor = "#227aef", themeColor = "#227aef",
 		offlinePath = "offline-page.html",
